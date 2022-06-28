@@ -1,0 +1,43 @@
+{
+  "name": "cd-input-select",
+  "description": "Input Select",
+  "version": "1.0.3",
+  "author": "cd",
+  "license": "MIT",
+  "main": "dist/input-select.js",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuxinchan/input-select"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "element-ui": "^2.15.9",
+    "node-sass": "^7.0.1",
+    "vue": "^2.5.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-component": "^1.1.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.4",
+    "sass": "1.26.2",
+    "sass-loader": "^4.0.0",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  }
+}
